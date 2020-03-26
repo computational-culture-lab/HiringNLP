@@ -8,6 +8,7 @@ Greetings Reader! This repo is an extension of Sarah K. Stein's work. Here, inst
 - [Data](#data)
 - [Usage](#usage)
 - [STM](#stm)
+- [TFIDF](#tfidf)
 
 ## Apporach to measure Linguistic Similarity
 
@@ -123,4 +124,5 @@ As a genearl note the `R` files are best used in RStudio and run code section by
 ## STM
 A brief attempt was made (for Q1) to try structural topic models following [Brandon M. Stewart] (https://cran.r-project.org/web/packages/stm/vignettes/stmVignette.pdf) page 16. This can be found under the STM Trial section of `buildModel.R`.
 
-
+## TFIDF
+To just run Sarah's old code and see TFIDF results simply go to `buildModel.R` and use the same `Q3 Prep` that is used for `Sent_Bert.py, USE_Google.py` and then proceed to the end of the file and follow TFIDF comments. Then follow same pattern for `modelToTable.R`. 
