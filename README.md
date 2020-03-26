@@ -2,6 +2,13 @@
 
 Greatings Reader! This repo is an extension of Sarah K. Stein's work. Here, instead of using TFIDF we try a variety of different NLP approaches to measure Linguistic Similarity
 
+## Table of Contents  
+- [Apporach to measure Linguistic Similarity](#apporach-to-measure-linguistic-similarity)
+- [Generalized Logistic Regression](#generalized-logistic-regression)
+- [Data](#data)
+- [Usage](#usage)
+- [STM](#stm)
+
 ## Apporach to measure Linguistic Similarity
 
 To measure Linguistic (Semantic) Similarity between applicants, we tried
@@ -64,7 +71,7 @@ encoding of applicant responses.
 
 ## Generalized Logistic Regression
 
-We ran a generalized logistic regression with the dependent variable of hiring outcome based on \(S_H\ and other controls **X**.
+We ran a generalized logistic regression with the dependent variable of hiring outcome based on S_H and other controls **X**.
 
 ![](GLR.png)
 
@@ -113,6 +120,7 @@ This file is quite simple (phew). To use this, again in the RStudio, first load 
 
 As a genearl note the `R` files are best used in RStudio and run code section by code section by selecting over the desired lines.
 
-
+## STM
+A brief attempt was made (for Q1) to try structural topic models following [Brandon M. Stewart] (https://cran.r-project.org/web/packages/stm/vignettes/stmVignette.pdf) page 16. This can be found under the STM Trial section of `buildModel.R`.
 
 
