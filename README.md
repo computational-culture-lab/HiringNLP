@@ -1,6 +1,6 @@
 # HiringNLP
 
-Greatings Reader! This repo is an extension of Sarah K. Stein's work. Here, instead of using TFIDF we try a variety of different NLP approaches to measure Linguistic Similarity
+Greetings Reader! This repo is an extension of Sarah K. Stein's work. Here, instead of using TFIDF we try a variety of different NLP approaches to measure Linguistic Similarity
 
 ## Table of Contents  
 - [Apporach to measure Linguistic Similarity](#apporach-to-measure-linguistic-similarity)
