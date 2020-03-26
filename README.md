@@ -12,14 +12,7 @@ general procedure:
 applicant responses (based on some similarity function \(sim\)).
 Resulting in a matrix as such:
 
-```math
-\[S = \begin{bmatrix} 
-0 & sim(\theta)_{12} & \dots & sim(\theta)_{1n} \\
-sim(\theta)_{21} & 0 & \dots & \vdots \\
-\vdots & \vdots & \ddots & \vdots \\
-sim(\theta)_{n1} & \dots & \dots & 0
-\end{bmatrix}\]
-```
+![](sim_matrix.png)
 
 <span>**2.**</span> Construct an independent pre-hire fit measure,
 \(S_H\), by multiplying the similarity matrix, \(S\), by a vector of
@@ -28,21 +21,7 @@ measuring the degree to which each individual’s language was similar to
 the language used by the group of hired individuals (excluding himself
 or herself when appropriate).
 
-\[H = \begin{bmatrix}
-h_1 \\ h_2 \\ \vdots \\ h_n
-\end{bmatrix},
-\tab
-%
-S_H = S*h = \begin{bmatrix} 
-0 & sim(\theta)_{12} & \dots & sim(\theta)_{1n} \\
-sim(\theta)_{21} & 0 & \dots & \vdots \\
-\vdots & \vdots & \ddots & \vdots \\
-sim(\theta)_{n1} & \dots & \dots & 0
-\end{bmatrix}
-%
-\begin{bmatrix}
-  h_1 \\ h_2 \\ \vdots \\ h_n
-\end{bmatrix}\]
+![](hired_sim.png)
 
 For each method of modeling response similarity we have different
 procedures:
