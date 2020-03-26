@@ -62,6 +62,12 @@ were downloaded and retrieved for each applicant response. Then cosine
 similarities (\(sim = cos\)) were computed between all SBERT sentence
 encoding of applicant responses.
 
+## Generalized Logistic Regression
+
+We ran a generalized logistic regression with the dependent variable of hiring outcome based on \(S_H\ and other controls **X**.
+
+![](GLR.png)
+
 ## Data
 Go to
 ```
