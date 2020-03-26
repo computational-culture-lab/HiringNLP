@@ -46,28 +46,28 @@ Either all essay responses or firm emails were used as the training
 corpus to create CBOW Word2Vec embeddings. Then for each response, we
 found the average word embedding by iterating over all words in the
 response to find centroid. Then cosine similarities (\(sim = cos\)) were
-computed between all applicant average responses.
+computed between all applicant average responses. [Source + Math] (https://arxiv.org/abs/1606.04640)
 
 #### Word2Vec Word Mover Distance
 
 Either all essay responses or firm emails were used as the training
 corpus to create CBOW Word2Vec embeddings. Then for each response we
 used Word Mover distances between applicant responses to model sentence
-similarity (\(sim = WMD\)).
+similarity (\(sim = WMD\)). [Source + Math] (https://arxiv.org/abs/1811.01713)
 
 #### Universal Sentence Encoder
 
 Pre-trained fixed length sentence embedding from Google were downloaded
 and retrieved for each applicant response. Then cosine similarities
 (\(sim = cos\)) were computed between all USE sentence encoding of
-applicant responses.
+applicant responses. [Source + Math] (https://arxiv.org/abs/1803.11175)
 
 #### Sentence BERT
 
 Pre-trained fixed length sentence embedding from Siamese BERT network
 were downloaded and retrieved for each applicant response. Then cosine
 similarities (\(sim = cos\)) were computed between all SBERT sentence
-encoding of applicant responses.
+encoding of applicant responses. [Source + Math] (https://arxiv.org/abs/1908.10084)
 
 ## Generalized Logistic Regression
 
